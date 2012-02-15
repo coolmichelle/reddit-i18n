@@ -28,7 +28,7 @@ msgstr "에이피아이"
 
 #: r2/controllers/api.py:139
 msgid "thanks for your message! you should hear back from us shortly."
-msgstr "메시지를 받았습니다. 확인되는 대로 답문을 보내드리도록 하겠습니다"
+msgstr "메세지를 보내주셔서 감사합니다. 확인되는 대로 답문을 보내드리도록 하겠습니다"
 
 #: r2/controllers/api.py:167
 msgid "your message has been delivered"
@@ -36,7 +36,7 @@ msgstr "메시지가 전송되었습니다"
 
 #: r2/controllers/api.py:356
 msgid "no title found"
-msgstr ""
+msgstr "제목을 찾지 못했습니다"
 
 #: r2/controllers/api.py:550 r2/controllers/promotecontroller.py:394
 msgid "added"
@@ -52,11 +52,11 @@ msgstr "추가했습니다"
 #: r2/controllers/promotecontroller.py:515 r2/lib/menus.py:50
 #: r2/templates/frametoolbar.html:200 r2/templates/printablebuttons.html:175
 msgid "saved"
-msgstr "보관했습니다"
+msgstr "저장했습니다"
 
 #: r2/controllers/api.py:609
 msgid "you should be getting a verification email shortly."
-msgstr ""
+msgstr "곧 확인 메일을 받게 될 것입니다."
 
 #: r2/controllers/api.py:611
 msgid "your email has been updated"
@@ -84,9 +84,7 @@ msgstr "링크를 올렸습니다"
 
 #: r2/controllers/api.py:1065
 msgid "validation errors"
-msgstr ""
-"링크를 검증하는 과정에 오류가 발생했습니다 ??? validating what? links? "
-"emails?"
+msgstr "검증 과정 오류"
 
 #: r2/controllers/api.py:1165 r2/controllers/api.py:1879 r2/lib/menus.py:157
 #: r2/templates/printablebuttons.html:33
@@ -105,15 +103,15 @@ msgstr "그림이 너무 많습니다 (한 번에 그림 %d 개 만 올릴 수 �
 
 #: r2/controllers/api.py:1227
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "잘못된 이미지 또는 평범한 이미지 오류"
 
 #: r2/controllers/api.py:1682
 msgid "claimed! now go to someone's userpage and give them a present!"
-msgstr ""
+msgstr "확인되었습니다! 이제 다른 사람의 유저페이지로 가서 그들에게 선물을 주십쇼!"
 
 #: r2/controllers/api.py:1687
 msgid "claimed!"
-msgstr ""
+msgstr "확인되었습니다!"
 
 #: r2/controllers/api.py:1703
 msgid "an email will be sent to that account's address shortly"
@@ -121,19 +119,19 @@ msgstr "잠시 후에 입력하신 주소로 메일을 보내드리도록 하겠
 
 #: r2/controllers/api.py:1705
 msgid "try again tomorrow"
-msgstr ""
+msgstr "내일 다시 시도해 보십시오"
 
 #: r2/controllers/api.py:1932 r2/controllers/api.py:2113
 msgid "invalid css class"
-msgstr ""
+msgstr "잘못된 css class"
 
 #: r2/controllers/api.py:1935 r2/controllers/api.py:2116
 msgid "too many css classes"
-msgstr ""
+msgstr "너무 많은 css class들"
 
 #: r2/controllers/api.py:2132
 msgid "max flair templates reached"
-msgstr ""
+msgstr "한계 플레어 템플릿 도달"
 
 #: r2/controllers/buttons.py:201 r2/controllers/buttons.py:209
 msgid "reddit buttons"
@@ -154,15 +152,15 @@ msgstr "올리기"
 
 #: r2/controllers/embed.py:65
 msgid "edit this page"
-msgstr ""
+msgstr "이 페이지 수정하기"
 
 #: r2/controllers/embed.py:66
 msgid "yes, it's okay!"
-msgstr ""
+msgstr "네, 당연히 괜찮죠!"
 
 #: r2/controllers/embed.py:67
 msgid "just read this first."
-msgstr ""
+msgstr "우선 이것을 먼저 읽으세요!"
 
 #: r2/controllers/embed.py:83 r2/lib/menus.py:88 r2/lib/pages/pages.py:425
 #: r2/templates/frametoolbar.html:107
@@ -184,11 +182,11 @@ msgstr "로그인을 하셔야 이용할 수 있는 기능입니다"
 
 #: r2/controllers/errors.py:28
 msgid "you need to set a valid email address to do that."
-msgstr ""
+msgstr "제대로된 이메일 주소가 필요합니다."
 
 #: r2/controllers/errors.py:29
 msgid "a url is required"
-msgstr ""
+msgstr "인터넷 주소가 필요합니다."
 
 #: r2/controllers/errors.py:30
 msgid "you should check that url"
@@ -196,7 +194,7 @@ msgstr "주소를 다시 한 번 확인 하십시요"
 
 #: r2/controllers/errors.py:31
 msgid "care to try these again?"
-msgstr ""
+msgstr "다시 한 번 시도해보시겠습니까?"
 
 #: r2/controllers/errors.py:32
 msgid "invalid user name"
@@ -204,21 +202,19 @@ msgstr "사용하실 수 없는 아이디입니다"
 
 #: r2/controllers/errors.py:33
 msgid "that username is already taken"
-msgstr ""
-"다른 사용자가 사용하고있는 아이디입니다. 희망하시는 다른 아이디를 입력하십시"
-"오"
+msgstr "다른 사용자가 사용하고있는 아이디입니다. 희망하시는 다른 아이디를 입력하십시오."
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "그  아이디는 삭제된 계정의 아이디 입니다."
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "자신이 차단한 사용자에게 메세지를 보내실 수 없습니다."
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
-msgstr "아이디를 입력 하셔야합니다"
+msgstr "아이디를 확인하지 못했습니다."
 
 #: r2/controllers/errors.py:37
 msgid "you can't do that"
@@ -226,11 +222,11 @@ msgstr "하실 수 없는 작업입니다"
 
 #: r2/controllers/errors.py:38
 msgid "you are not logged in as that user"
-msgstr ""
+msgstr "그 사용자로 로그인되지 않았습니다."
 
 #: r2/controllers/errors.py:39
 msgid "the link you are commenting on has been deleted"
-msgstr ""
+msgstr "댓글을 달려고 하는 링크는 삭제되었습니다."
 
 #: r2/controllers/errors.py:40
 msgid "that comment has been deleted"
@@ -238,11 +234,11 @@ msgstr "삭제된 댓글입니다"
 
 #: r2/controllers/errors.py:41
 msgid "that element has been deleted"
-msgstr ""
+msgstr "그 부분은 삭제되었습니다."
 
 #: r2/controllers/errors.py:42
 msgid "that password is unacceptable"
-msgstr ""
+msgstr "그 비밀번호는 사용하실수 없습니다."
 
 #: r2/controllers/errors.py:43
 msgid "invalid password"
@@ -283,18 +279,17 @@ msgstr "아이디를 입력하십시오"
 #: r2/controllers/errors.py:53
 #, python-format
 msgid "that number isn't in the right range (%(min)d to %(max)d)"
-msgstr ""
+msgstr "그 숫자는 알맞은 범위에 있지 않습니다 (%(min)d to %(max)d"
 
 #: r2/controllers/errors.py:54
 msgid "you used a character here that we can't handle"
-msgstr ""
+msgstr "우리가 사용할 수 없는 케릭터를 사용하셨습니다."
 
 #: r2/controllers/errors.py:55
 #, python-format
 msgid ""
-"your bid must be at least $%(min)d per day and no more than to $%(max)d in "
-"total."
-msgstr ""
+"your bid must be at least $%(min)d per day and no more than to $%(max)d in total."
+msgstr "당신의 호가는 적어도 하루에 $%(min)d 이고 전체는 $%(max)d 이하여야 합니다."
 
 #: r2/controllers/errors.py:56
 msgid "that link has already been submitted"
@@ -310,11 +305,11 @@ msgstr "존재하지 않는 레딧입니다"
 
 #: r2/controllers/errors.py:59
 msgid "you aren't allowed to post there."
-msgstr ""
+msgstr "그 곳에 포스팅할 수 있는 권한이 없습니다."
 
 #: r2/controllers/errors.py:60
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "subreddit을 확실하게 기재해 주시길 바랍니다."
 
 #: r2/controllers/errors.py:61
 msgid "that name isn't going to work"
@@ -323,15 +318,15 @@ msgstr "사용 하실 수 없는 이름입니다"
 #: r2/controllers/errors.py:62
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "그 행동을 너무 많이 하고 있습니다. %(time)s 초 후에 다시 시도해 보십시오."
 
 #: r2/controllers/errors.py:63
 msgid "your session has expired"
-msgstr "시간이 많이 지나서 로그인이 만료되었습니다  ???"
+msgstr "시간이 많이 지나서 로그인이 만료되었습니다"
 
 #: r2/controllers/errors.py:64
 msgid "you must accept the terms first"
-msgstr "이용약관에 먼저 동의에 하셔야 합니다"
+msgstr "이용약관에 먼저 동의 하셔야 합니다"
 
 #: r2/controllers/errors.py:68
 msgid "that option is not valid"
